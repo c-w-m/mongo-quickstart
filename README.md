@@ -1,4 +1,4 @@
-# Build PyPI with MongoDB and Python
+# [Build PyPI with MongoDB and Python](https://github.com/mikeckennedy/jetbrains-webcast-build-with-mongodb)
 
 Code and handouts for my JetBrains webcast recorded January 30, 2018.
 

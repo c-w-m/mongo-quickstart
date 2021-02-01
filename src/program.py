@@ -6,10 +6,21 @@ from services.package_service import PackageService
 
 
 def main():
-    global_init('pypi')
-    print_header()
-    input_loop()
+    # demo from first half of video
+    quick_demo = False
+    if quick_demo:
+        global_init('pypi_2')
 
+        p = Package()
+        p.name = "Just playing"
+        p.save()
+
+        print_header()
+        input_loop()
+    else:
+        global_init('pypi')
+        print_header()
+        input_loop()
 
 def input_loop():
     while True:
